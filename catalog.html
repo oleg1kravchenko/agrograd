@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/animate/animate.min.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="css/font.css" />
+	<link rel="stylesheet" href="css/null.css">
+	<link rel="stylesheet" href="css/main.css?ver=1.77" />
+	<link rel="stylesheet" href="css/media.css?ver=1.77" />
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<div class="header__top">
+					<div class="logo">
+						<a href="#"><img src="img/logo.png" alt="alt"></a>
+					</div>
+					<div class="header__contacts">
+						<p> г. Самара, ул. Индустриальная, 10</p>
+						<p>e-mail: <a href="mailto:agrograd@mail.ru">agrograd@mail.ru</a></p>
+					</div>
+					<div class="header__contacts">
+						<a href="tel:+79871234567" class="link-phone">+7 (987) 123-45-67</a>
+						<p>Без выходных: 10:00-20:00</p>
+					</div>
+					<div class="header-contacts">
+						<a href="#callback" class="btn-simple btn-simple__callback fancybox">Заказать звонок<i class="fas fa-phone"></i></a>
+					</div>
+					<span class="btn_nav">
+						<span class='sandwich'>
+							<span class='sw-topper'></span>
+							<span class='sw-bottom'></span>
+							<span class='sw-footer'></span>
+						</span>
+					</span>
+				</div>
+				<nav class="header__bottom">
+					<ul class="menu">
+						<li><a href="#">Выставочная площадка</a></li>
+						<li><a href="#">О компании</a></li>
+						<li><a href="#">Каталог оборудования</a></li>
+						<li><a href="#">Доставка</a></li>
+						<li><a href="#">Кредит и лизинг</a></li>
+						<li><a href="#">Оптовикам</a></li>
+						<li><a href="#">Блог</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<!-- Content -->
+
+		<div class="catalog-page">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col_left-catalog">
+						<div class="head-sidebar">
+							<a href="#" class="main-btn main-btn_page">
+								<span>Скачать оптовый прайс</span>
+							</a>
+						</div>
+						<div class="wrap-sidebar">
+							<div class="btn-dropdown"><i class="fas fa-filter"></i></div>
+							<ul class="list-sidebar">
+								<li class="active"><a href="#">Почвофрезы</a></li>
+								<li><a href="#">Прицепы</a></li>
+								<li><a href="#">Плуги</a></li>
+								<li><a href="#">Отвалы</a></li>
+								<li><a href="#">Окучники</a></li>
+								<li><a href="#">Картофелекопалки</a></li>
+								<li><a href="#">Картофелесажалки</a></li>
+								<li><a href="#">Культиваторы</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-9">
+						<div class="head-catalog">
+							<div class="head-catalog__item">
+								<p>Сортировка:</p>
+								<select>
+									<option value="1">по умолчанию</option>
+									<option value="1">по умолчанию</option>
+									<option value="1">по умолчанию</option>
+									<option value="1">по умолчанию</option>
+								</select>
+							</div>
+							<div class="head-catalog__item hidden_mobile">
+								<p>Ширина почвофрезы:</p>
+								<select>
+									<option value="1"></option>
+									<option value="1">20</option>
+									<option value="1">30</option>
+									<option value="1">40</option>
+								</select>
+							</div>
+							<div class="head-catalog__item hidden_mobile">
+								<p>Бренд: </p>
+								<select>
+									<option value="1"></option>
+									<option value="1">Бренд 2</option>
+									<option value="1">Бренд 3</option>
+									<option value="1">Бренд 4</option>
+								</select>
+							</div>
+						</div>
+						<div class="row row_catalog">
+							<div class="col-lg-4 col-md-4 col-6">
+								<a href="#" class="catalog-item">
+									<span class="catalog-item__status">В наличии</span>
+									<span class="catalog-img">
+										<img src="img/catalog-4.png" alt="alt">
+									</span>
+									<span class="catalog-item__title">Картофелесажалка Кerland Керланд CT-2/2 (70-75 см)</span>
+									<span class="catalog-item__newprice">39 900 Р</span>
+								</a>
+							</div>
+							<div class="col-lg-4 col-md-4 col-6">
+								<a href="#" class="catalog-item">
+									<span class="catalog-item__status catalog-item__status_red">Под заказ</span>
+									<span class="catalog-img">
+										<img src="img/catalog-4.png" alt="alt">
+									</span>
+									<span class="catalog-item__title">Картофелесажалка Кerland Керланд CT-2/2 (70-75 см)</span>
+									<span class="catalog-item__newprice">39 900 Р</span>
+								</a>
+							</div>
+							<div class="col-lg-4 col-md-4 col-6">
+								<a href="#" class="catalog-item">
+									<span class="catalog-item__status">В наличии</span>
+									<span class="catalog-img">
+										<img src="img/catalog-4.png" alt="alt">
+									</span>
+									<span class="catalog-item__title">Картофелесажалка Кerland Керланд CT-2/2 (70-75 см)</span>
+									<span class="catalog-item__newprice">39 900 Р</span>
+								</a>
+							</div>
+							<div class="col-lg-4 col-md-4 col-6">
+								<a href="#" class="catalog-item">
+									<span class="catalog-item__status">В наличии</span>
+									<span class="catalog-img">
+										<img src="img/catalog-4.png" alt="alt">
+									</span>
+									<span class="catalog-item__title">Картофелесажалка Кerland Керланд CT-2/2 (70-75 см)</span>
+									<span class="catalog-item__newprice">39 900 Р</span>
+								</a>
+							</div>
+							<div class="col-lg-4 col-md-4 col-6">
+								<a href="#" class="catalog-item">
+									<span class="catalog-item__status catalog-item__status_red">Под заказ</span>
+									<span class="catalog-img">
+										<img src="img/catalog-4.png" alt="alt">
+									</span>
+									<span class="catalog-item__title">Картофелесажалка Кerland Керланд CT-2/2 (70-75 см)</span>
+									<span class="catalog-item__newprice">39 900 Р</span>
+								</a>
+							</div>
+							<div class="col-lg-4 col-md-4 col-6">
+								<a href="#" class="catalog-item">
+									<span class="catalog-item__status">В наличии</span>
+									<span class="catalog-img">
+										<img src="img/catalog-4.png" alt="alt">
+									</span>
+									<span class="catalog-item__title">Картофелесажалка Кerland Керланд CT-2/2 (70-75 см)</span>
+									<span class="catalog-item__newprice">39 900 Р</span>
+								</a>
+							</div>
+							<div class="col-lg-4 col-md-4 col-6">
+								<a href="#" class="catalog-item">
+									<span class="catalog-item__status">В наличии</span>
+									<span class="catalog-img">
+										<img src="img/catalog-4.png" alt="alt">
+									</span>
+									<span class="catalog-item__title">Картофелесажалка Кerland Керланд CT-2/2 (70-75 см)</span>
+									<span class="catalog-item__newprice">39 900 Р</span>
+								</a>
+							</div>
+							<div class="col-lg-4 col-md-4 col-6">
+								<a href="#" class="catalog-item">
+									<span class="catalog-item__status catalog-item__status_red">Под заказ</span>
+									<span class="catalog-img">
+										<img src="img/catalog-4.png" alt="alt">
+									</span>
+									<span class="catalog-item__title">Картофелесажалка Кerland Керланд CT-2/2 (70-75 см)</span>
+									<span class="catalog-item__newprice">39 900 Р</span>
+								</a>
+							</div>
+							<div class="col-lg-4 col-md-4 col-6">
+								<a href="#" class="catalog-item">
+									<span class="catalog-item__status">В наличии</span>
+									<span class="catalog-img">
+										<img src="img/catalog-4.png" alt="alt">
+									</span>
+									<span class="catalog-item__title">Картофелесажалка Кerland Керланд CT-2/2 (70-75 см)</span>
+									<span class="catalog-item__newprice">39 900 Р</span>
+								</a>
+							</div>
+							<div class="col-lg-4 col-md-4 col-6">
+								<a href="#" class="catalog-item">
+									<span class="catalog-item__status">В наличии</span>
+									<span class="catalog-img">
+										<img src="img/catalog-4.png" alt="alt">
+									</span>
+									<span class="catalog-item__title">Картофелесажалка Кerland Керланд CT-2/2 (70-75 см)</span>
+									<span class="catalog-item__newprice">39 900 Р</span>
+								</a>
+							</div>
+							<div class="col-lg-4 col-md-4 col-6">
+								<a href="#" class="catalog-item">
+									<span class="catalog-item__status catalog-item__status_red">Под заказ</span>
+									<span class="catalog-img">
+										<img src="img/catalog-4.png" alt="alt">
+									</span>
+									<span class="catalog-item__title">Картофелесажалка Кerland Керланд CT-2/2 (70-75 см)</span>
+									<span class="catalog-item__newprice">39 900 Р</span>
+								</a>
+							</div>
+							<div class="col-lg-4 col-md-4 col-6">
+								<a href="#" class="catalog-item">
+									<span class="catalog-item__status">В наличии</span>
+									<span class="catalog-img">
+										<img src="img/catalog-4.png" alt="alt">
+									</span>
+									<span class="catalog-item__title">Картофелесажалка Кerland Керланд CT-2/2 (70-75 см)</span>
+									<span class="catalog-item__newprice">39 900 Р</span>
+								</a>
+							</div>
+						</div>
+						<div class="more-link-wrap">
+							<a href="#" class="link-main">Смотреть ещё</a>
+						</div>
+						<h3 class="title-small">СЕО текст</h3>
+						<div class="text-main text-main_more">
+							<p>Ключевые особенности структуры проекта будут представлены в исключительно положительном свете. С учётом сложившейся международной обстановки, высококачественный прототип будущего проекта предоставляет широкие возможности для укрепления моральных ценностей. Имеется спорная точка зрения, гласящая примерно следующее: сторонники тоталитаризма в науке призывают нас к новым свершениям, которые, в свою очередь, должны быть заблокированы в рамках своих собственных рациональных ограничений. Для современного мира высококачественный прототип будущего проекта предопределяет высокую востребованность системы обучения кадров, соответствующей насущным потребностям. Мы вынуждены отталкиваться от того, что современная методология разработки создаёт предпосылки для новых предложений. И нет сомнений, что тщательные исследования конкурентов лишь добавляют фракционных разногласий и призваны к ответу. С учётом сложившейся международной обстановки, глубокий уровень погружения создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса приоритизации разума над эмоциями.</p>
+							<div class="hidden-text-more">
+								<p>Для современного мира высококачественный прототип будущего проекта предопределяет высокую востребованность системы обучения кадров, соответствующей насущным потребностям. Мы вынуждены отталкиваться от того, что современная методология разработки создаёт предпосылки для новых предложений. И нет сомнений, что тщательные исследования конкурентов лишь добавляют фракционных разногласий и призваны к ответу. С учётом сложившейся международной обстановки, глубокий уровень погружения создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса приоритизации разума над эмоциями.</p>
+							</div>
+						</div>
+						<div class="wrap-link-more">
+							<a href="#" class="link-more"><i class="far fa-chevron-double-down"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- footer -->
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-6">
+						<div class="section-title">Карта сайта</div>
+						<ul class="footer-menu">
+							<li><a href="#">О компании</a></li>
+							<li><a href="#">Каталог оборудования</a></li>
+							<li><a href="#">Выставочная площадка</a></li>
+							<li><a href="#">Политика конфиденциальности</a></li>
+							<li><a href="#">Полезные материалы</a></li>
+							<li><a href="#">Заводам и поставщикам</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</div>
+					<div class="col-md-4 align_center">
+						<div class="foter-logo">
+							<a href="#"><img src="img/foter-logo.png" alt="alt" /></a>
+						</div>
+						<div class="footer-logo__text">
+							<p>Самарский склад навесного</p>
+							<p> оборудования для тракторов</p>
+						</div>
+					</div>
+					<div class="col-md-4 flex_right col-6">
+						<div class="footer__right">
+							<div class="section-title">Контакты</div>
+							<div class="footer-contacts">
+								<p class="footer__title">Офис:</p>
+								<p>ул. Индустриальная, </p>
+							</div>
+							<div class="footer-contacts">
+								<p class="footer__title">Выставочная площадка:</p>
+								<p>ул. Индустриальная, 10</p>
+							</div>
+							<div class="footer-contacts">
+								<p><a href="tel:+79879921111">+7 987 992 11 11</a></p>
+								<p><a href="mailto:test@mail.ru.ru ">test@mail.ru.ru </a></p>
+							</div>
+							<div class="footer-contacts">
+								<p class="footer__title">Время работы</p>
+								<p>Пн-Пт: 10:00-19:30</p>
+								<p>Сб: 10:00-14:00</p>
+								<p>Вс: выходной</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-3 col-md-6">
+							<div class="footer-bottom__item">
+								<a href="#">Политика конфиденциальности</a>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 tablet_right">
+							<div class="footer-bottom__item">г. Симферополь © Copyright 2020 г.</div>
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="footer-bottom__item">
+								<div class="copy">Сделано в<img src="img/copy.png" alt="alt" /></div>
+							</div>
+						</div>
+						<div class="col-lg-3 align_right col-md-6">
+							<a href="#" class="btn_top"><i class="fa fa-arrow-up"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- footer-bottom -->
+
+	</div>
+
+	<div id="callback" class="modal-block">
+		<div class="modal-wrap">
+			<div class="main-block__form">
+				<div class="main-form">
+					<form class="block-form">
+						<div class="block-form__title">Заказать звонок</div>
+						<div class="item-form">
+							<input type="text" name="name" required="required" placeholder="Имя">
+						</div>
+						<div class="item-form">
+							<input class="input-phone" required="required" type="text" name="name"	placeholder="Телефон">
+						</div>
+						<button class="main-btn form-btn">
+							<span>Отправить</span>
+						</button>
+						<div class="checkbox-wrap">
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" required="required" checked>
+									<span>Согласие на обработку персональных данных</span>
+								</label>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--[if lt IE 9]>
+		<script src="libs/html5shiv/es5-shim.min.js"></script>
+		<script src="libs/html5shiv/html5shiv.min.js"></script>
+		<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+		<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+	<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="libs/animate/wow.min.js"></script>
+	<script src="libs/animate/animate-css.js"></script>
+	<script src="libs/mask/jquery.maskedinput.js"></script>
+	<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+	<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+	<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+	<script src="js/common.js?ver=1.77"></script>
+	<!-- Yandex.Metrika counter -->
+	<!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter -->
+	<!-- /Google Analytics counter -->
+</body>
+</html>
+
+
